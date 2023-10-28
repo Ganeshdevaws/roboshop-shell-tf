@@ -54,7 +54,7 @@ unzip /tmp/frontend.zip &>>$LOGFILE
 
 VALIDATE $? "Unzipping frontend artifacts"
 
-cp /home/centos/roboshop-shell/roboshop.conf /etc/nginx/default.d/roboshop.conf &>>$LOGFILE
+cp /home/centos/roboshop-shell-tf/roboshop.conf /etc/nginx/default.d/roboshop.conf &>>$LOGFILE
 
 VALIDATE $? "Copying roboshop config"
 
